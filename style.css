@@ -108,7 +108,6 @@ nav .kontakt {
     background-size: cover;
     text-align: center;
     height: 50vh;
-    overflow: auto;
     /* overscroll-behavior: contain; */
     background-size: cover;
     padding: 0% 2% 10%;
