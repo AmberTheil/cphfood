@@ -1,277 +1,340 @@
 <!DOCTYPE html>
 <html lang="DK">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cph Food</title>
     <style></style>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Yantramanav"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed"
+      rel="stylesheet"
+    />
+  </head>
 
-<header></header>
+  <header></header>
 
-<body>
+  <body>
     <section id="section0">
-        <nav>
-            <ul>
-                <a href="#section1">Selskaber</a>
-                <a href="#section2">Menu</a>
-                <a href="#section3">Galleri</a>
-                <a href="#section4">Kontakt</a>
-            </ul>
-            <div class="kontakt">
-                <a href="tel:+4525341016"><i class="fa fa-phone"></i></a>
-                <a href="mailto:august2100@hotmail.com"><i class="fa fa-envelope"></i></a>
-                <a href=""><i class="fa fa-facebook-square"></i></a>
-            </div>
-        </nav>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <div id="slow">
-            <img src="billeder/cphfood.png" alt="Logo" />
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="#section1"><li>Selskaber</li></a>
+            <a href="#section2"><li>Menu</li></a>
+            <a href="#section3"><li>Galleri</li></a>
+            <a href="#section4"><li>Kontakt</li></a>
+          </ul>
         </div>
-        <input type="button" value="PLAY" onclick="play()">
-        <p> Play Music for the full experience</p>
-        <p>
-            <audio id="audio" src="music.mp3"></audio>
-        </p>
+        <div class="kontakt">
+          <a href="tel:+4525341016"><i class="fa fa-phone"></i></a>
+          <a href="mailto:admin@cphfood.dk"><i class="fa fa-envelope"></i></a>
+          <a href=""><i class="fa fa-facebook-square"></i></a>
+        </div>
+      </nav>
+
+      <ul id="menu2">
+        <a href="#section1">Selskaber</a>
+        <a href="#section2">Menu</a>
+        <a href="#section3">Galleri</a>
+        <a href="#section4">Kontakt</a>
+      </ul>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div id="slow">
+        <img src="billeder/cphfood.png" alt="Logo" />
+      </div>
+      <input type="button" class="myButton" value="PLAY" onclick="play()" />
+      <p>Play Music for the full experience</p>
+      <p>
+        <audio id="audio" src="music.mp3"></audio>
+      </p>
     </section>
 
     <section id="section1">
-        <br />
-        <br />
-        <h1>Selskaber</h1>
+      <br />
+      <br />
+      <h1>Selskaber</h1>
 
-
-        <h2>Maden binder festen sammen</h2>
-        <p>
-            De små herlige canapeer og boblerne i glasset, når gæsterne ankommer. Middagen af sæsonens friske råvarer og vin til lejligheden, mens snakken og latteren fylder rummet. Og den sene godbid, når musikken er godt i gang. Vi leverer det hele. En festmiddag der passer lige præcis på den stemning, som du gerne vil skabe. Om det er en reception, en konfirmation, et bryllup, en fødselsdag, eller hvis du bare vil fejre livet sammen med gode venner. Vi har maden, der skaber den helt rigtige fest. Husk at vi kan tage os af det hele, hvis du vil have det. Lige fra maden og vinen til borde, stole, bestik og pynt. Vi sørger også gerne for tjenere og kokke, til at gøre klar, anrette og servere. Du skal bare koncentrere dig om at have en dejlig fest. Se nedenfor hvordan vi kan hjælpe dig med en speciel anledning og hvilke buffeter du kan forkæle dine gæster med.
-        </p>
+      <h2>Maden binder festen sammen</h2>
+      <p>
+        Hos CphFood går vi op i at udnytte og bruge sæsonens friske råvarer. Vi
+        er vilde med alt det grønne og nordiske - og interesserer os for at
+        maden er fuld af spændende smage. Vi laver alt nordisk mad, lige fra 5
+        retters menuer til smørrebrød. Vi ved hvor vigtigt det er at alt går op
+        i en højere enhed når festen skal holdes - og mens snakken og latteren
+        fylder rummet, kan du slappe af med spændende og veltillavet mad. En
+        festmiddag der passer lige præcis til den stemning, som du gerne vil
+        skabe. Det kan være en reception, en konfirmation, et bryllup, en
+        fødselsdag, eller hvis du bare vil fejre livet sammen med gode venner.
+        Vi har maden, der skaber den helt rigtige fest. Og vær opmærksom på, at
+        vi kan tage os af det hele, hvis du ønsker det. Lige fra maden og vinen
+        til borde, stole, bestik og pynt. Nedenfor kan du se hvad en menuen
+        kunne bestå af.
+      </p>
     </section>
     <section id="section2">
-        <br />
-        <br />
-        <div class="højrebox">
-            <h1>Menu</h1>
-            <h2> Velkomstdrink - Champagne og snack </h2>
-            <p> Små sprøde kartofler med vilde urter <br /> Flæskesvær med jernurt <br> 80 stk. østers til velkomst
-            </p>
+      <br />
+      <br />
+      <div class="højrebox">
+        <h1>Menu Forslag</h1>
 
-            <h2>Forret</h2>
-            <p> Røget laks, radiser, dild og le tigre dressing <br> (asiatisk inspireret)- anrettes i små kuvert skåle
-            </p>
+        <h2>500 kr pr. kurvert (min. 10 personer)</h2>
 
+        <h2>Snack</h2>
+        <p>
+          Små sprøde kartofler med vilde urter <br />
+          Flæskesvær med jernurt
+        </p>
 
-            <h2>Fra buffet serveres </h2>
-            <p>Bagte søde kartofler med røget chili olie og springløs og goa chess <br /> Blandet grønne salater med ritede boghvede og senneps vinaigrette <br /> Danske tomater med små syltede løg, røget salt, vesterhavsost &amp; blomsterkarse <br /> Nye asparges med asparges-emulision, dehydreret æggeblomme, spiselige blomster og ramsløgs kapers <br /> Surdejsbrød og pisket smør
-            </p>
+        <h2>Forret</h2>
+        <p>
+          Kammuslinger - Syltet kål - Ærter - Muslingefløde
+        </p>
 
-            <h2>Fra grillen serveres</h2>
-            <p>Grillet Oksemørbrad med nye grillet løg og estragroncreme <br /> Grillet langtisstegt frilandsgris med BBQ marinade
-            </p>
+        <h2>Fra buffet serveres</h2>
+        <p>
+          Bagte søde kartofler med røget chili olie
+          <br />
+          Blandet grønne salater med senneps vinaigrette
+          <br />
+          Danske tomater med små syltede løg, vesterhavsost &amp; blomsterkarse
+          <br />
+          Nye asparges med asparges-emulision, dehydreret æggeblomme, spiselige
+          blomster <br />
+          Surdejsbrød og pisket smør
+        </p>
 
-            <h2> Det søde </h2>
-            <p>Små Jordbærtærte <br /> Canaléer med citroncreme <br /> Chokoladetrøfter
-            </p>
-        </div>
+        <h2>Fra grillen serveres</h2>
+        <p>
+          Grillet Oksemørbrad med nye grillet løg og estragroncreme <br />
+          Grillet langtisstegt frilandsgris med BBQ marinade
+        </p>
+
+        <h2>Det søde</h2>
+        <p>
+          Danske jordbær - Vaniljeis - Urter
+        </p>
+      </div>
     </section>
     <section id="section3">
-        <h1>Galleri</h1>
+      <h1>Galleri</h1>
 
-        <div class="viewport">
-            <div class="carousel-frame">
-                <div class="carousel">
-                    <ul class="scroll">
-                        <li class="scroll-item-outer">
-                            <div class="scroll-item">
-                                <img src="billeder/billede2.jpg" alt="noget med kål" />
-                            </div>
-                        </li>
-                        <li class="scroll-item-outer">
-                            <div class="scroll-item">
-                                <img src="billeder/højbillede1.jpg" alt="Kammuslinger - Syltet kål - Ærter" />
-                            </div>
-                        </li>
-                        <li class="scroll-item-outer">
-                            <div class="scroll-item">
-                                <img src="billeder/højbillede4.jpg" alt="tartaaaaaar" />
-                            </div>
-                        </li>
-                        <li class="scroll-item-outer">
-                            <div class="scroll-item">
-                                <img src="billeder/højbillede6.jpg" alt="Picture of a young kitten opening its eyes" />
-                            </div>
-                        </li>
-                    </ul>
+      <div class="viewport">
+        <div class="carousel-frame">
+          <div class="carousel">
+            <ul class="scroll">
+              <li class="scroll-item-outer">
+                <div class="scroll-item">
+                  <img src="billeder/billede2.jpg" alt="noget med kål" />
                 </div>
-            </div>
+              </li>
+              <li class="scroll-item-outer">
+                <div class="scroll-item">
+                  <img
+                    src="billeder/højbillede1.jpg"
+                    alt="Kammuslinger - Syltet kål - Ærter"
+                  />
+                </div>
+              </li>
+              <li class="scroll-item-outer">
+                <div class="scroll-item">
+                  <img src="billeder/højbillede4.jpg" alt="tartaaaaaar" />
+                </div>
+              </li>
+              <li class="scroll-item-outer">
+                <div class="scroll-item">
+                  <img
+                    src="billeder/højbillede6.jpg"
+                    alt="Picture of a young kitten opening its eyes"
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-        <ul class="indicators">
-            <li class="indicator">
-                <button class="indicator-button" aria-pressed="true"></button>
-            </li>
-            <li class="indicator">
-                <button class="indicator-button"></button>
-            </li>
-            <li class="indicator">
-                <button class="indicator-button"></button>
-            </li>
-            <li class="indicator">
-                <button class="indicator-button"></button>
-            </li>
-        </ul>
-
+      </div>
+      <ul class="indicators">
+        <li class="indicator">
+          <button class="indicator-button" aria-pressed="true"></button>
+        </li>
+        <li class="indicator">
+          <button class="indicator-button"></button>
+        </li>
+        <li class="indicator">
+          <button class="indicator-button"></button>
+        </li>
+        <li class="indicator">
+          <button class="indicator-button"></button>
+        </li>
+      </ul>
     </section>
 
     <section id="section4">
-        <div class="kontakt">
-            <a href="tel:+4553770093"><i class="fa fa-phone"></i></a>
-            <a href="mailto:august2100@hotmail.com"><i class="fa fa-envelope"></i></a>
-            <a href=""><i class="fa fa-facebook-square"></i></a>
-        </div>
+      <div class="kontakt">
+        <a href="tel:+4553770093"><i class="fa fa-phone"></i></a>
+        <a href="mailto:admin@cphfood.dk"><i class="fa fa-envelope"></i></a>
+        <a href=""><i class="fa fa-facebook-square"></i></a>
+      </div>
 
-        <div id="slow">
-            <img src="billeder/cphfood.png" alt="Logo" />
-        </div>
-        <p> <a href="tel:+4553770093">Telefon: +45 53770093</a> <br>
-            <a href="mailto:august2100@hotmail.com"> Mail: august2100@hotmail.com</a></p>
-
+      <div id="slow">
+        <img src="billeder/cphfood.png" alt="Logo" />
+      </div>
+      <p>
+        <a href="tel:+4553770093">Telefon: +45 53770093</a> <br />
+        <a href="mailto:admin@cphfood.dk"> Mail: admin@cphfood.dk</a>
+      </p>
     </section>
     <script>
-        function play() {
-            var audio = document.getElementById("audio");
-            audio.play();
-        }
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
 
+      const easingOutQuint = (x, t, b, c, d) =>
+        c * ((t = t / d - 1) * t * t * t * t + 1) + b;
 
-        const easingOutQuint = (x, t, b, c, d) =>
-            c * ((t = t / d - 1) * t * t * t * t + 1) + b
+      function smoothScrollPolyfill(node, key, target) {
+        const startTime = Date.now();
+        const offset = node[key];
+        const gap = target - offset;
+        const duration = 1000;
+        let interrupt = false;
 
-        function smoothScrollPolyfill(node, key, target) {
-            const startTime = Date.now()
-            const offset = node[key]
-            const gap = target - offset
-            const duration = 1000
-            let interrupt = false
+        const step = () => {
+          const elapsed = Date.now() - startTime;
+          const percentage = elapsed / duration;
 
-            const step = () => {
-                const elapsed = Date.now() - startTime
-                const percentage = elapsed / duration
+          if (interrupt) {
+            return;
+          }
 
-                if (interrupt) {
-                    return
-                }
+          if (percentage > 1) {
+            cleanup();
+            return;
+          }
 
-                if (percentage > 1) {
-                    cleanup()
-                    return
-                }
+          node[key] = easingOutQuint(0, elapsed, offset, gap, duration);
+          requestAnimationFrame(step);
+        };
 
-                node[key] = easingOutQuint(0, elapsed, offset, gap, duration)
-                requestAnimationFrame(step)
+        const cancel = () => {
+          interrupt = true;
+          cleanup();
+        };
+
+        const cleanup = () => {
+          node.removeEventListener("wheel", cancel);
+          node.removeEventListener("touchstart", cancel);
+        };
+
+        node.addEventListener("wheel", cancel, {
+          passive: true
+        });
+        node.addEventListener("touchstart", cancel, {
+          passive: true
+        });
+
+        step();
+
+        return cancel;
+      }
+
+      function testSupportsSmoothScroll() {
+        let supports = false;
+        try {
+          let div = document.createElement("div");
+          div.scrollTo({
+            top: 0,
+            get behavior() {
+              supports = true;
+              return "smooth";
             }
+          });
+        } catch (err) {} // Edge throws an error
+        return supports;
+      }
 
-            const cancel = () => {
-                interrupt = true
-                cleanup()
-            }
+      const hasNativeSmoothScroll = testSupportsSmoothScroll();
 
-            const cleanup = () => {
-                node.removeEventListener('wheel', cancel)
-                node.removeEventListener('touchstart', cancel)
-            }
-
-            node.addEventListener('wheel', cancel, {
-                passive: true
-            })
-            node.addEventListener('touchstart', cancel, {
-                passive: true
-            })
-
-            step()
-
-            return cancel
+      function smoothScroll(node, topOrLeft, horizontal) {
+        if (hasNativeSmoothScroll) {
+          return node.scrollTo({
+            [horizontal ? "left" : "top"]: topOrLeft,
+            behavior: "smooth"
+          });
+        } else {
+          return smoothScrollPolyfill(
+            node,
+            horizontal ? "scrollLeft" : "scrollTop",
+            topOrLeft
+          );
         }
+      }
 
-        function testSupportsSmoothScroll() {
-            let supports = false
-            try {
-                let div = document.createElement('div')
-                div.scrollTo({
-                    top: 0,
-                    get behavior() {
-                        supports = true
-                        return 'smooth'
-                    }
-                })
-            } catch (err) {} // Edge throws an error
-            return supports
-        }
+      function debounce(func, ms) {
+        let timeout;
+        return () => {
+          clearTimeout(timeout);
+          timeout = setTimeout(() => {
+            timeout = null;
+            func();
+          }, ms);
+        };
+      }
 
-        const hasNativeSmoothScroll = testSupportsSmoothScroll()
+      const indicators = document.querySelectorAll(".indicator-button");
+      const scroller = document.querySelector(".scroll");
 
-        function smoothScroll(node, topOrLeft, horizontal) {
-            if (hasNativeSmoothScroll) {
-                return node.scrollTo({
-                    [horizontal ? 'left' : 'top']: topOrLeft,
-                    behavior: 'smooth'
-                })
-            } else {
-                return smoothScrollPolyfill(node, horizontal ? 'scrollLeft' : 'scrollTop', topOrLeft)
-            }
-        }
-
-        function debounce(func, ms) {
-            let timeout
-            return () => {
-                clearTimeout(timeout)
-                timeout = setTimeout(() => {
-                    timeout = null
-                    func()
-                }, ms)
-            }
-        }
-
-        const indicators = document.querySelectorAll('.indicator-button')
-        const scroller = document.querySelector('.scroll')
-
-        function setAriaLabels() {
-            indicators.forEach((indicator, i) => {
-                indicator.setAttribute('aria-label', `Scroll to item #${i + 1}`)
-            })
-        }
-
-        function setAriaPressed(index) {
-            indicators.forEach((indicator, i) => {
-                indicator.setAttribute('aria-pressed', !!(i === index))
-            })
-        }
-
+      function setAriaLabels() {
         indicators.forEach((indicator, i) => {
-            indicator.addEventListener('click', e => {
-                e.preventDefault()
-                e.stopPropagation()
-                setAriaPressed(i)
-                const scrollLeft = Math.floor(scroller.scrollWidth * (i / 4))
-                smoothScroll(scroller, scrollLeft, true)
-            })
-        })
+          indicator.setAttribute("aria-label", `Scroll to item #${i + 1}`);
+        });
+      }
 
-        scroller.addEventListener('scroll', debounce(() => {
-            let index = Math.round((scroller.scrollLeft / scroller.scrollWidth) * 4)
-            setAriaPressed(index)
-        }, 200))
+      function setAriaPressed(index) {
+        indicators.forEach((indicator, i) => {
+          indicator.setAttribute("aria-pressed", !!(i === index));
+        });
+      }
 
-        setAriaLabels()
+      indicators.forEach((indicator, i) => {
+        indicator.addEventListener("click", e => {
+          e.preventDefault();
+          e.stopPropagation();
+          setAriaPressed(i);
+          const scrollLeft = Math.floor(scroller.scrollWidth * (i / 4));
+          smoothScroll(scroller, scrollLeft, true);
+        });
+      });
 
+      scroller.addEventListener(
+        "scroll",
+        debounce(() => {
+          let index = Math.round(
+            (scroller.scrollLeft / scroller.scrollWidth) * 4
+          );
+          setAriaPressed(index);
+        }, 200)
+      );
+
+      setAriaLabels();
     </script>
-</body>
-
+  </body>
 </html>
