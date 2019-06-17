@@ -65,15 +65,10 @@ nav .kontakt {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   text-align: center;
   height: 60vh;
   overflow: auto;
   /* overscroll-behavior: contain; */
-  background-size: cover;
   padding: 0% 2% 10%;
   color: white;
   overflow: hidden;
@@ -544,5 +539,22 @@ ul.indicators {
     padding-top: 15vw;
     margin-left: -60vw;
     width: 80%;
+  }
+  #section0 {
+    /* The image used */
+    background-image: url("billeder/fisk2.jpg");
+    /* Set a specific height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    overflow: auto;
+    /* overscroll-behavior: contain; */
+    padding: 0% 2% 10%;
+    color: white;
+    overflow: hidden;
   }
 }
