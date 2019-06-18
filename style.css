@@ -549,7 +549,7 @@ ul.indicators {
     background-repeat: no-repeat;
     background-size: cover;
 
-    height: 90vh;
+    max-height: 50vh;
     /* overscroll-behavior: contain; */
     padding: 0% 2% 10%;
     color: white;
