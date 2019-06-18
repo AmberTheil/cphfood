@@ -547,9 +547,12 @@ ul.indicators {
     /* Create the parallax scrolling effect */
     background-position: center;
     /* background-repeat: no-repeat; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    min-width: 100vw;
-    min-height: 90vh;
+    min-width: 100%;
+    min-height: 100%;
     overscroll-behavior: contain;
     padding: 0% 2% 10%;
     color: white;
