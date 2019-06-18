@@ -551,9 +551,8 @@ ul.indicators {
     /* The image used */
     background-image: url("billeder/fisk1.jpg");
     /* Set a specific height */
-    max-width: 530px
+    max-width: 530px;
     /* Create the parallax scrolling effect */
-    background-attachment: none;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
