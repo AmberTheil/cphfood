@@ -540,6 +540,12 @@ ul.indicators {
     margin-left: -50vw;
     width: 80%;
   }
+  #section0 {
+    background-size: 1200px auto;
+    width: 100%;
+    min-height: 110vw;
+    padding: 0% 0% 10%;
+  }
   #section4 {
     /* The image used */
     background-image: url("billeder/fisk1.jpg");
@@ -551,7 +557,7 @@ ul.indicators {
     width: 100%;
     height: 50vw;
     overscroll-behavior: contain;
-    padding: 0% 2% 10%;
+    padding: 0% 0% 10%;
     color: white;
   }
 }
