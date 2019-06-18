@@ -548,8 +548,8 @@ ul.indicators {
     background-position: center;
     /* background-repeat: no-repeat; */
     background-size: cover;
-    max-width: 100vw;
-    max-height: 50vh;
+    min-width: 100vw;
+    min-height: 90vh;
     overscroll-behavior: contain;
     padding: 0% 2% 10%;
     color: white;
