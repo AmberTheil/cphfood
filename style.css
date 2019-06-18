@@ -555,7 +555,7 @@ ul.indicators {
     /* Create the parallax scrolling effect */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: 1600px 1000px;
     text-align: center;
     height: 50vh;
     /* overscroll-behavior: contain; */
